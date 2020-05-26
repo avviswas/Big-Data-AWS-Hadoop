@@ -1,0 +1,7 @@
+Step 1: Create 2 aws instances running on fully distributed mode (Used RedHat)
+Step 2: In file CalMap the input type of the mapper is Intwritable and Longwritable
+Step 3: In file CalMap2 the input type of this second mapper is Doublewritable and Longwritable
+Step 4: In file CalReduce the input type of the reducer is Intwritable and Longwritable
+Step 5: In file CalReduce2 the input type of this seconnd reducer is Doublewritable and Intwritable
+Step 6: Run time for Pseduo distribute mode is ~144 seconds
+Step 7: Run time for fully distributed mode is ~119 seconds 

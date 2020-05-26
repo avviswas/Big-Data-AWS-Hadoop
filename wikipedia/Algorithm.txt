@@ -1,0 +1,9 @@
+1. Mapper will map all pair to key value pairs using the co-occuring words
+2. Remove all special character and remove stop list words for better processing
+3. Reduce all the words into a tree map
+4. From the above step we will get the frequency of co-occurence of the pairs of the words
+5. These pairs will be passed to the reducer
+6. Now, the reducer will count the aggregation of all the occurences of the pairs seperately.
+7. NOw we have the pairs, these pairs will have teir final frequencies
+8. Sort the pairs according to their frequencies
+9. Execute and see the output. 
